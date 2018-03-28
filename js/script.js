@@ -16,6 +16,3 @@ function toggleClass(el, cls) {
   }
 }
 
-function onnoclick() {
-	window.location="https://www.youtube.com/watch?v=ZiTVSjlTcvc";
-}
