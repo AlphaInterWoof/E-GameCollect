@@ -15,3 +15,7 @@ function toggleClass(el, cls) {
     el.className += " " + cls;
   }
 }
+
+function onnoclick() {
+	window.location="https://www.youtube.com/watch?v=ZiTVSjlTcvc";
+}

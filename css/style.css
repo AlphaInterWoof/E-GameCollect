@@ -7,6 +7,40 @@ body {
    
 }
 
+@media (min-device-width:650px) and (min-width: 650px) and (max-width: 900px) {
+    #pagecontent {
+        display: flex;
+    }
+    
+    nav {
+        min-width: 200px;
+        
+        order: 1;
+    }
+}
+
+
+@media (min-device-width: 650px) and (min-width: 901px) {
+    .toppmeny {
+        display: flex;
+        position: relative;
+        z-index: 100;
+    }
+    
+    .menuclosed ul.undermeny {
+        display: block;
+
+    }
+    
+    .toppmeny {
+        height: 2em;
+    }
+    
+    .menuclosed {
+        overflow: hidden;
+    }
+}
+
 nav {
     position: relative;
     z-index: 10;
@@ -49,6 +83,7 @@ nav a {
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
     color: white;
+	
 }
 
 .show {
@@ -69,4 +104,5 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color: gray;
+	
 }
