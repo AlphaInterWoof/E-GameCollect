@@ -106,3 +106,16 @@ h2 {
     color: gray;
 	
 }
+
+.yes {
+	position:absolute;
+	top: 400px;
+	left: 30%;
+}
+
+.no {
+	position:absolute;
+	top: 400px;
+	left: 65%;
+	
+}
