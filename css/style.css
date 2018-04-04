@@ -1,5 +1,5 @@
 body {
-    background-image: url(../image/Matrix.jpg);
+    background-image: url(../image/index/Matrix.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -8,7 +8,7 @@ body {
 }
 
 #csgo {
-    background-image: url(../image/cs_bg.png);
+    background-image: url(../image/csgo/cs_bg.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -117,13 +117,13 @@ h2 {
 
 .yes {
 	position:absolute;
-	top: 400px;
+	top: 370px;
 	left: 30%;
 }
 
 .no {
 	position:absolute;
-	top: 400px;
+	top: 370px;
 	left: 65%;
 	
 }
